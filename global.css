@@ -1,0 +1,38 @@
+/*  For Linked Text  */
+.enlarge-on-hover span {
+  display: inline-block;
+  transition: transform 0.4s ease;
+}
+
+.enlarge-on-hover:hover span {
+  transform: scale(1.2);
+  color: rgba(226, 255, 226, 0.733);
+}
+
+.link-spacer{
+  display: block;
+  margin-top: 20px;
+}
+
+/*  Fonts  */
+
+@font-face {
+  font-family: 'Nicolas Cochin';
+  src: url('fonts/cochin.ttf') format('truetype');
+  font-weight:lighter;
+  font-style: normal;
+}
+
+.cochin {
+  font-family: 'Nicolas Cochin', serif;
+  text-shadow: 2px 2px black;
+}
+
+@font-face {
+  font-family: 'Nabla';
+  src: url('fonts/nabla.ttf') format('truetype');
+}
+
+.nabla {
+  font-family: 'Nabla', sans-serif;
+}

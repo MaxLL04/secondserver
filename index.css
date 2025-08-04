@@ -1,0 +1,110 @@
+/*  Formats  */
+
+.heading{
+  text-align: center; 
+  font-size: 40pt; 
+  font-weight: 25; 
+  color: rgba(255, 255, 255, 0.712);
+  padding-top: px;
+
+  position: relative;
+  width:500px; height:250px;
+  margin:auto;
+  margin-top: 50px;
+  text-align:center;
+  background-color: rgba(255, 255, 255, 0.062);
+  border: 1px solid rgba(255, 255, 255, 0.041);
+  border-radius: 20px;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 50px;
+  height: 65vh;
+}
+
+.body-main {
+  background-image: url('images/greenbgcomp.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.div-box {
+  position: relative;
+  width:300px; height:325px;
+  margin:auto;
+  color: rgba(255, 255, 255, 0.884);
+  text-align:center;
+  background-color: rgba(255, 255, 255, 0.062);
+  border: 1px solid rgba(255, 255, 255, 0.041);
+  border-radius: 20px;
+}
+
+.div-box-inner {
+  position: relative;
+  width:250px; height:250px;
+  margin:auto;
+  color: rgba(255, 255, 255, 0.884);
+  text-align:center;
+  background-color: rgba(255, 255, 255, 0.062);
+  border: 1px solid rgba(255, 255, 255, 0.041);
+  border-radius: 20px;
+}
+
+.div-box-button {
+  position: relative;
+  padding-top: 2px;
+  width:200px; height:20px;
+  margin:auto;
+  color: rgba(255, 255, 255, 0.884);
+  text-align:center;
+  border-radius: 20px;
+  background-color: rgba(240, 248, 255, 0);
+
+}
+
+h1 {
+  margin: 0;
+}
+
+div a:link,div a:visited,div a:hover,div a:active {
+  color: white !important;
+  text-decoration: none;
+}
+
+
+/*  Animations  */
+
+.enlarge-on-hover {
+  transition: transform 0.4s ease;
+}
+
+.enlarge-on-hover:hover {
+  transition: .4s;
+  transform: scale(1.2);
+}
+
+.enlarge-on-hover:active {
+  transition: .2s;
+  transform: scale(0.9);
+}
+
+.unhighlight{
+  transition: all 0.4s ease;
+}
+
+.unhighlight:hover{
+  background-color: rgba(255, 255, 255, 0.034);
+}
+
+.highlight{
+  transition: all 0.4s ease;
+}
+
+.highlight:hover{
+  background-color: rgba(255, 255, 255, 0.103);
+}
+
